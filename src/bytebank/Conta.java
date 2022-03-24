@@ -1,4 +1,4 @@
-// Class tipo Conta:
+/// Class tipo Conta:
 
 package bytebank;
 
