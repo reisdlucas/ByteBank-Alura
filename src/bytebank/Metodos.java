@@ -12,9 +12,9 @@ public class Metodos {
 		Conta contaFabio = new Conta();
 		contaFabio.deposita(500);
 		if (contaFabio.transfere(25, contaLucas)) {
-			System.out.println("TransferÃªncia realizada");
+			System.out.println("Transferência realizada");
 		} else {
-			System.out.println("OperaÃ§Ã£o negada - Saldo Insuficiente");
+			System.out.println("Operação negada - Saldo Insuficiente");
 		}
 		System.out.println(contaLucas.saldo);
 	}

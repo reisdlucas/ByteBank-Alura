@@ -4,7 +4,7 @@ package bytebank;
 public class CriaConta {
 	
 	public static void main(String[] args) {
-		// Conta <- do tipo <- variével(Referência):firstaccount = new Conta()	
+		// Conta <- do tipo <- variavel(Referencia):firstaccount = new Conta()	
 		Conta firstAccount = new Conta();
 		// firstAccount[.] <- Ponto para navegar pelos atributos: Conta 
 		firstAccount.saldo = 200;		

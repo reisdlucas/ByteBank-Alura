@@ -11,7 +11,7 @@ public class TestBank {
 		Conta contaLucas = new Conta();
 		contaLucas.deposita(100);
 		
-// AtribuiÃ§Ã£o de referÃªncia para o atributo Titular:
+// Atribuição de referencia para o atributo Titular:
 		
 		contaLucas.titular = lucas;
 		

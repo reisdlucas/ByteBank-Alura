@@ -6,22 +6,22 @@ public class Conta {
 	double saldo;
 	int agencia;
 	int numero;
-// Referência para o objeto:
+// Referencia para o objeto:
 	Cliente titular;
 	
-// Métodos:
+// Metodos:
 	
-	// nomeDoMetodo([tipoDeVariável] + variável)
+	// nomeDoMetodo([tipoDeVariavel] + variavel)
 	
 	// Void = return vazio 
 	
-// Método Deposita:
+// Metodo Deposita:
 	
 	public void  deposita(double valor) {
 		this.saldo += valor;
 	}
 	
-// Método Saca:
+// Metodo Saca:
 	
 	public boolean saca(double valor) {
 		if (this.saldo>= valor) {
@@ -31,9 +31,9 @@ public class Conta {
 			return false;
 		}
 	}
-//Método Transfere:
+//Metodo Transfere:
 	
-	// Se separa com virgula os argumentos de um método*
+	// Se separa com virgula os argumentos de um metodo*
 	
 	public boolean transfere(double valor, Conta destino) {
 		if (this.saldo >= valor) {
