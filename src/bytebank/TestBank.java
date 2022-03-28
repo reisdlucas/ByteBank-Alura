@@ -20,6 +20,10 @@ public class TestBank {
 		System.out.println(lucas.getCpf());
 		System.out.println(lucas.getProfissao());
 		
+		Conta contaFabio = new Conta(2401, 9001);
+		
+		Conta contaCilene = new Conta(6008, 8001);
+				
 	}
 	
 }

@@ -6,17 +6,20 @@ public class Conta {
 	private double saldo;
 	private int agencia;
 	private int numero;
-// Referencia para o objeto:
+// Referencia para o objeto:	
 	private Cliente titular;
+	private static int total;
 	
 	
 // Contrutores:
 	
 	public Conta(int agencia, int numero) {
+		total++;
+		System.out.println("O total de contas é " + total);
 		this.agencia = agencia;
-		this.numero = numero;		
-	}
-	
+		this.numero = numero;
+		System.out.println("Criada a conta " + this.numero);
+	}	
 	
 // Metodos:
 	

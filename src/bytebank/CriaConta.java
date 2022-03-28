@@ -1,4 +1,5 @@
 // Objeto do tipo: Conta
+
 package bytebank;
 
 public class CriaConta {
@@ -7,7 +8,7 @@ public class CriaConta {
 		
 		// Conta <- do tipo <- variavel(Referencia):firstaccount = new Conta()	
 		
-		Conta firstAccount = new Conta();
+		Conta firstAccount = new Conta(2355, 1009);
 		
 		// firstAccount[.] <- Ponto para navegar pelos atributos: Conta
 		
