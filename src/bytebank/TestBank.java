@@ -8,14 +8,13 @@ public class TestBank {
 		lucas.setCpf("117.262.907-27");
 		lucas.setProfissao("Programador");
 		
-		Conta contaLucas = new Conta();
+		Conta contaLucas = new Conta(1377, 1001);
 		contaLucas.deposita(100);
 		
 // Atribuicao de referencia:
 		
 		contaLucas.setTitular(lucas);
-		contaLucas.setAgencia(1377);
-		contaLucas.setNumero(1001);
+	
 		
 		System.out.println(lucas.getNome());
 		System.out.println(lucas.getCpf());

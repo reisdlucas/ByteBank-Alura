@@ -9,6 +9,15 @@ public class Conta {
 // Referencia para o objeto:
 	private Cliente titular;
 	
+	
+// Contrutores:
+	
+	public Conta(int agencia, int numero) {
+		this.agencia = agencia;
+		this.numero = numero;		
+	}
+	
+	
 // Metodos:
 	
 	// nomeDoMetodo([tipoDeVariavel] + variavel)
