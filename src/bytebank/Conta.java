@@ -3,11 +3,11 @@
 package bytebank;
 
 public class Conta {
-	double saldo;
-	int agencia;
-	int numero;
+	private double saldo;
+	private int agencia;
+	private int numero;
 // Referencia para o objeto:
-	Cliente titular;
+	private Cliente titular;
 	
 // Metodos:
 	
@@ -31,6 +31,7 @@ public class Conta {
 			return false;
 		}
 	}
+	
 //Metodo Transfere:
 	
 	// Se separa com virgula os argumentos de um metodo*
@@ -42,7 +43,42 @@ public class Conta {
 			return true;
 		} else {
 			return false;
-		}
+		}		
+		
 	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public Cliente getTitular() {
+		return titular;
+	}
+
+	public void setTitular(Cliente titular) {
+		this.titular = titular;
+	}
+	
+	
 	
 }
