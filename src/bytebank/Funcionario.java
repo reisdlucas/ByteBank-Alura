@@ -1,10 +1,11 @@
 package bytebank;
-
+// Base Class - Class Mae
 public class Funcionario {
 	
 	private String nome;
 	private String cpf;
-	private double salario;	
+	// protected = publico somente para os filhos
+	protected double salario;	
 	private int cargo = 0; // 0 - Funcionario, 1 - Gerente, 2 - Diretor
 	
 	//public Funcionario(int cargo) {
