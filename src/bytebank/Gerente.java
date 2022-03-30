@@ -1,6 +1,6 @@
 package bytebank;
 
-// Gerente herda de Funcionario 
+// Gerente herda de Funcionario - Class filha
 
 public class Gerente extends Funcionario {
 	
@@ -14,10 +14,9 @@ public class Gerente extends Funcionario {
 		}
 	}
 	
-	public double getBonificação() {
-		return super.salario + 1500; // super = atributo da base class
+	public double getBonificacao() {
+		return (super.getBonificacao()) + super.getSalario(); // super = atributo da base class
 	}
-	
 	public int getSenha() {
 		return senha;
 	}
