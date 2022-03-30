@@ -8,13 +8,13 @@ public class CriaConta {
 		
 		// Conta <- do tipo <- variavel(Referencia):firstaccount = new Conta()	
 		
-		Conta firstAccount = new Conta(2355, 1009);
+		Conta contaLucas = new Conta(1201, 1998);		
 		
 		// firstAccount[.] <- Ponto para navegar pelos atributos: Conta
 		
-		firstAccount.setSaldo(200);		
+		contaLucas.setSaldo(200);		
 		
-		System.out.println(firstAccount.getSaldo());
+		System.out.println(contaLucas.getSaldo());
 	}
 	
 }

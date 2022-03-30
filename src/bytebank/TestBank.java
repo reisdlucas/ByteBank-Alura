@@ -21,9 +21,12 @@ public class TestBank {
 		System.out.println(lucas.getProfissao());
 		
 		Conta contaFabio = new Conta(2401, 9001);
+		System.out.println(contaFabio.getAgencia());
+		System.out.println(contaFabio.getNumero());
 		
 		Conta contaCilene = new Conta(6008, 8001);
-				
+		System.out.println(contaCilene.getAgencia());
+		System.out.println(contaCilene.getNumero());
 	}
 	
 }
