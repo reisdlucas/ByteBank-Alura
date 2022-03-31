@@ -2,7 +2,7 @@ package bytebank;
 
 // Base Class - Class Mae
 
-// abstract = Conceito
+// abstract = Conceito // Nao pode instanciar dessa class pois é abstrata
 
 public abstract class Funcionario {
 	
@@ -23,10 +23,10 @@ public abstract class Funcionario {
 	public void setCargo(int cargo) {
 		this.cargo = cargo;		
 	}
-
-	public double getBonificacao() {		
-		return this.salario * 0.5;		
-	}
+	
+// Metodo Abstract = sem implementacao 
+	
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
