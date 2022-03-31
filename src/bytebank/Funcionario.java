@@ -2,7 +2,9 @@ package bytebank;
 
 // Base Class - Class Mae
 
-public class Funcionario {
+// abstract = Conceito
+
+public abstract class Funcionario {
 	
 	private String nome;
 	private String cpf;

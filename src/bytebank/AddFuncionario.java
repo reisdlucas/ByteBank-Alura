@@ -16,15 +16,16 @@ public class AddFuncionario {
 		System.out.println(validou);		
 		System.out.println(gerente1.getBonificacao());
 		
+// abstract Class Funcionario:
 		
-		Funcionario funcionario1 = new Funcionario();
-		funcionario1.setNome("Fabio");
-		funcionario1.setCpf("11111111111");
-		funcionario1.setSalario(1200);
-		System.out.println(funcionario1.getNome());
-		System.out.println(funcionario1.getCpf());
-		System.out.println(funcionario1.getSalario());
-		System.out.println(funcionario1.getBonificacao());
+//		Funcionario funcionario1 = new Funcionario();
+//		funcionario1.setNome("Fabio");
+//		funcionario1.setCpf("11111111111");
+//		funcionario1.setSalario(1200);
+//		System.out.println(funcionario1.getNome());
+//		System.out.println(funcionario1.getCpf());
+//		System.out.println(funcionario1.getSalario());
+//		System.out.println(funcionario1.getBonificacao());
 		
 		
 		Seguranca seguranca1 = new Seguranca();
@@ -38,11 +39,9 @@ public class AddFuncionario {
 				
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.registra(gerente1);
-		controle.registra(funcionario1);
+//		controle.registra(funcionario1);
 		controle.registra(seguranca1);
-		System.out.println(controle.getSoma());
-		
-		
+		System.out.println(controle.getSoma());		
 		
 	}
 
