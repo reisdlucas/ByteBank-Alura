@@ -3,7 +3,7 @@
 package bytebank;
 
 public abstract class Conta {
-	private double saldo;
+	protected double saldo;
 	private int agencia;
 	private int numero;
 // Referencia para o objeto:	
