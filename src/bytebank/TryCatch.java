@@ -13,7 +13,7 @@ public class TryCatch {
 		} catch (ArithmeticException | NullPointerException ex) {
 
 			String msg = ex.getMessage();
-			System.out.println("Exception" + msg);
+			System.out.println("Exception " + msg);
 			ex.printStackTrace();
 		} 
 		
@@ -28,9 +28,14 @@ public class TryCatch {
 
 	private static void metodo2() {
 		System.out.println("Ini do metodo 2");
-		for (int i = 1; i <= 5; i++) {
-			System.out.println(i);
-			int a = i / 0;
-		}
+
+// throw new ArithmeticException ("deu errado")
+		
+		ArithmeticException ex = new ArithmeticException("deu errado");
+		throw ex;
+//		for (int i = 1; i <= 5; i++) {
+//			System.out.println(i);
+//			int a = i / 0;
+//		}
 	}
 }
