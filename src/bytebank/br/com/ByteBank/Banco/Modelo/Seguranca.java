@@ -1,4 +1,4 @@
-package bytebank;
+package bytebank.br.com.ByteBank.Banco.Modelo;
 // Class filha
 public class Seguranca extends Funcionario{
 	

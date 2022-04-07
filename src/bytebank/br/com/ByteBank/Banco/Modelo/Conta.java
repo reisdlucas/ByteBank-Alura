@@ -1,6 +1,4 @@
-/// Class tipo Conta:
-
-package bytebank;
+package bytebank.br.com.ByteBank.Banco.Modelo;
 
 public abstract class Conta {
 	protected double saldo;

@@ -1,4 +1,4 @@
-package bytebank;
+package bytebank.br.com.ByteBank.Banco.Modelo;
 
 // Contrato Autenticavel 
 	// quem assina esse contrato, precisa implementar 

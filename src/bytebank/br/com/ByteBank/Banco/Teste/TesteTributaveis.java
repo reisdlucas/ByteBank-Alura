@@ -1,4 +1,6 @@
-package bytebank;
+package bytebank.br.com.ByteBank.Banco.Teste;
+
+import bytebank.br.com.ByteBank.Banco.Modelo.*;
 
 public class TesteTributaveis {
 	

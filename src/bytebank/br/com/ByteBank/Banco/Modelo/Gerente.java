@@ -1,4 +1,4 @@
-package bytebank;
+package bytebank.br.com.ByteBank.Banco.Modelo;
 
 // Gerente herda de Funcionario - Class filha
 
@@ -12,7 +12,7 @@ public class Gerente extends Funcionario implements Autenticavel {
 	}
 	
 	public double getBonificacao() {
-		System.out.println("Chamando o Método de Bonificação do GERENTE");
+		System.out.println("Chamando o Mï¿½todo de Bonificaï¿½ï¿½o do GERENTE");
 		return super.getSalario();
 	}	
 

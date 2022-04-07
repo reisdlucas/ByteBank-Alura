@@ -1,4 +1,4 @@
-package bytebank;
+package bytebank.br.com.ByteBank.Banco.Modelo;
 
 public class SistemaInterno {
 	
@@ -9,7 +9,7 @@ public class SistemaInterno {
 		if (autenticou) {
 			System.out.println("Pode entrar no sistema!");
 		} else {
-			System.out.println("Não pode entrar no sistema");
+			System.out.println("Nï¿½o pode entrar no sistema");
 		}
 	}
 	
