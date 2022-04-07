@@ -7,11 +7,8 @@ public class TryCatch {
 		System.out.println("Ini da main");
 
 		try {
-
 			metodo1();
-
-		} catch (ArithmeticException | NullPointerException ex) {
-
+		} catch (Exception ex) {
 			String msg = ex.getMessage();
 			System.out.println("Exception " + msg);
 			ex.printStackTrace();
@@ -20,22 +17,14 @@ public class TryCatch {
 		System.out.println("Fim da main");
 	}
 
-	private static void metodo1() {
+	private static void metodo1() throws MinhaExcecao {
 		System.out.println("Ini do metodo 1");
 		metodo2();
 		System.out.println("Fim do metodo1");
 	}
 
-	private static void metodo2() {
+	private static void metodo2() throws MinhaExcecao {
 		System.out.println("Ini do metodo 2");
-
-// throw new ArithmeticException ("deu errado")
-		
-		ArithmeticException ex = new ArithmeticException("deu errado");
-		throw ex;
-//		for (int i = 1; i <= 5; i++) {
-//			System.out.println(i);
-//			int a = i / 0;
-//		}
+		throw new MinhaExcecao("deu muito errado");
 	}
 }
