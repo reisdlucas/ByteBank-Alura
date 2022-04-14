@@ -1,6 +1,6 @@
 package bytebank.br.com.ByteBank.Banco.Modelo;
 
-public abstract class Conta {
+public abstract class Conta extends Object {
 	protected double saldo;
 	private int agencia;
 	private int numero;
